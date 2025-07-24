@@ -1,0 +1,150 @@
+{
+  "apartment": {
+    "id": "apartment",
+    "name": {
+      "ja": "アパート",
+      "zhTW": "公寓（木造、輕鋼構公寓）"
+    },
+    "category": "apartment",
+    "description": "通常指木造或輕鋼骨結構建造的低層集合住宅（2～3層樓居多）。隔音與耐震性可能不如マンション，通常不設電梯，租金相對較低。",
+    "features": [
+      "木造或輕鋼骨結構",
+      "2～3層樓建築",
+      "通常無電梯",
+      "租金相對較低",
+      "隔音性較差"
+    ],
+    "considerations": [
+      "隔音與耐震性需注意",
+      "依據相關法律低層可不用電梯",
+      "維護成本相對較低"
+    ],
+    "structure": "木造、輕鋼骨結構",
+    "floors": {
+      "typical": "2-3層",
+      "range": "1-4層"
+    },
+    "facilities": ["停車場", "信箱", "垃圾收集場"],
+    "relatedTerms": ["mansion", "structure_types"]
+  },
+  
+  "tower_mansion": {
+    "id": "tower_mansion", 
+    "name": {
+      "ja": "タワーマンション",
+      "zhTW": "超高級高層公寓"
+    },
+    "category": "tower",
+    "description": "通常是附有公共設施：泳池、健身房、訪客用房（需自費）、頂樓景觀派對空間、管家服務、讀書空間、獨立空間、高爾夫球練習區…等等。高樓層會有專屬高樓層電梯，因此也有身份區分現象，故物業費固定資產評價額會比普通物件還貴。",
+    "features": [
+      "超高層建築（通常20層以上）",
+      "豪華公共設施",
+      "管家服務",
+      "專屬高樓層電梯",
+      "頂級景觀"
+    ],
+    "considerations": [
+      "物業費較高",
+      "固定資產評價額較高",
+      "有身份區分現象",
+      "公共設施需額外收費"
+    ],
+    "structure": "鋼筋混凝土、鋼骨鋼筋混凝土",
+    "floors": {
+      "typical": "20層以上",
+      "range": "20-60層"
+    },
+    "facilities": [
+      "泳池", "健身房", "訪客用房", 
+      "頂樓景觀派對空間", "管家服務", 
+      "讀書空間", "高爾夫球練習區"
+    ],
+    "relatedTerms": ["mansion", "management_fee"]
+  },
+  
+  "terrace_house": {
+    "id": "terrace_house",
+    "name": {
+      "ja": "テラスハウス",
+      "zhTW": "連棟式戶建"
+    },
+    "category": "terrace",
+    "description": "在日本房地產中，是一種常見的建築型態，指的是：連棟式住宅（也可譯為「排屋」、「聯排別墅」）。每戶通常有1～2層樓，帶有小院子、陽台或露台（Terrace）。",
+    "features": [
+      "連棟式住宅",
+      "1-2層樓",
+      "帶有小院子或露台",
+      "獨立出入口",
+      "類似排屋概念"
+    ],
+    "considerations": [
+      "拆除時需要經他人同意",
+      "與鄰居共享牆壁",
+      "維護需與鄰居協調"
+    ],
+    "structure": "木造或輕量鐵骨造",
+    "floors": {
+      "typical": "1-2層",
+      "range": "1-3層"
+    },
+    "facilities": ["小院子", "陽台/露台", "獨立出入口"],
+    "relatedTerms": ["detached_house", "structure_types"]
+  },
+  
+  "mansion": {
+    "id": "mansion",
+    "name": {
+      "ja": "マンション", 
+      "zhTW": "高級公寓、集合住宅"
+    },
+    "category": "mansion",
+    "description": "通常指鋼筋混凝土（RC）、鋼骨鋼筋混凝土（SRC）或鋼骨（S）等耐震結構建造的中高層集合住宅。與台灣的「公寓」概念不同，日本的マンション多半附有電梯、門禁系統、管理員等公共設施與服務，品質相對較高。",
+    "features": [
+      "鋼筋混凝土結構",
+      "中高層建築",
+      "電梯設備",
+      "門禁系統",
+      "管理員服務"
+    ],
+    "considerations": [
+      "品質相對較高",
+      "管理費用",
+      "管理員主要負責巡邏、打掃"
+    ],
+    "structure": "鋼筋混凝土（RC）、鋼骨鋼筋混凝土（SRC）、鋼骨（S）",
+    "floors": {
+      "typical": "5-15層",
+      "range": "3-30層"
+    },
+    "facilities": ["電梯", "門禁系統", "管理員", "停車場", "垃圾處理場"],
+    "relatedTerms": ["apartment", "management_fee"]
+  },
+  
+  "detached_house": {
+    "id": "detached_house",
+    "name": {
+      "ja": "一戸建",
+      "zhTW": "透天厝、獨棟住宅"
+    },
+    "category": "house",
+    "description": "類似台灣的透天、有獨立土地產權的房屋（多為木造）、除非是購地自建可以選建材。",
+    "features": [
+      "獨立土地產權",
+      "獨棟住宅",
+      "通常為木造",
+      "類似台灣透天"
+    ],
+    "considerations": [
+      "土地與建物都屬於自己",
+      "購地自建可選擇建材",
+      "維護責任完全自負"
+    ],
+    "structure": "木造（主要）、也有RC、S造",
+    "floors": {
+      "typical": "2-3層",
+      "range": "1-4層"
+    },
+    "facilities": ["庭院", "停車場", "獨立玄關"],
+    "relatedTerms": ["land_rights", "structure_types"]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "ownership": {
+    "id": "ownership",
+    "name": {
+      "ja": "所有権",
+      "zhTW": "所有權"
+    },
+    "category": "ownership",
+    "description": "最完整的權利。擁有者可自由使用、收益、轉讓、出租或處分物件。在買賣物件時，若寫「所有権」，表示你買下後將成為完全的物主。",
+    "advantages": [
+      "完全的所有權",
+      "自由使用、收益、轉讓",
+      "可出租獲得收益",
+      "可自由處分物件",
+      "最高的法律保護"
+    ],
+    "disadvantages": [
+      "購買價格最高",
+      "需承擔所有維護責任",
+      "需繳納固定資產稅"
+    ],
+    "duration": {
+      "type": "permanent"
+    },
+    "transferability": {
+      "allowed": true
+    },
+    "annualFees": {
+      "required": false
+    },
+    "relatedTerms": ["property_tax", "maintenance"]
+  },
+  
+  "leasehold": {
+    "id": "leasehold",
+    "name": {
+      "ja": "借地権",
+      "zhTW": "借地權"
+    },
+    "category": "leasehold",
+    "description": "土地是租來的，建物則是你的。常見於「定期借地權」或「普通借地權」兩種。每年須支付地代（土地租金）給地主。出售時僅能轉讓建物＋借地權。",
+    "advantages": [
+      "購買成本較低",
+      "擁有建物所有權",
+      "可轉讓借地權"
+    ],
+    "disadvantages": [
+      "每年需支付地代",
+      "土地不屬於自己",
+      "轉讓需要地主同意",
+      "期限限制"
+    ],
+    "duration": {
+      "type": "fixed",
+      "period": "定期借地權：通常50年；普通借地權：可續約"
+    },
+    "transferability": {
+      "allowed": true,
+      "conditions": ["需要地主同意", "僅能轉讓建物與借地權"]
+    },
+    "annualFees": {
+      "required": true,
+      "description": "地代（土地租金）"
+    },
+    "relatedTerms": ["land_rent", "building_ownership"]
+  },
+  
+  "rental_rights": {
+    "id": "rental_rights",
+    "name": {
+      "ja": "借家権",
+      "zhTW": "借家權"
+    },
+    "category": "rental",
+    "description": "僅擁有「使用建物」的權利，不具擁有權。如租屋人，只有居住使用權。",
+    "advantages": [
+      "成本最低",
+      "無維護責任",
+      "靈活性高"
+    ],
+    "disadvantages": [
+      "無所有權",
+      "無法轉讓",
+      "無投資價值",
+      "受房東限制"
+    ],
+    "duration": {
+      "type": "renewable",
+      "period": "依契約而定"
+    },
+    "transferability": {
+      "allowed": false
+    },
+    "annualFees": {
+      "required": false
+    },
+    "relatedTerms": ["rental_contract", "tenant_rights"]
+  },
+  
+  "surface_rights": {
+    "id": "surface_rights",
+    "name": {
+      "ja": "地上権",
+      "zhTW": "地上權"
+    },
+    "category": "surface", 
+    "description": "可在他人土地上建造建物的法定權利，登記可對抗第三方。類似借地權，但法律保護力較強。可自由讓渡、轉租，買賣價值高於借地權。",
+    "advantages": [
+      "法律保護力強",
+      "可自由讓渡、轉租",
+      "可對抗第三方",
+      "買賣價值較高"
+    ],
+    "disadvantages": [
+      "土地不屬於自己",
+      "可能需支付地代",
+      "受土地所有者一定限制"
+    ],
+    "duration": {
+      "type": "fixed",
+      "period": "依設定而定，通常較長期"
+    },
+    "transferability": {
+      "allowed": true,
+      "conditions": ["可自由讓渡", "可轉租"]
+    },
+    "annualFees": {
+      "required": false,
+      "description": "依設定而定"
+    },
+    "relatedTerms": ["leasehold", "land_rights"]
+  }
+}

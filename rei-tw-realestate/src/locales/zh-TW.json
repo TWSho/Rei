@@ -1,0 +1,165 @@
+{
+  "common": {
+    "loading": "載入中...",
+    "error": "發生錯誤",
+    "retry": "重試",
+    "close": "關閉",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜尋",
+    "filter": "篩選",
+    "clear": "清除",
+    "more": "更多"
+  },
+  
+  "navigation": {
+    "home": "首頁",
+    "terms": "不動產用語解說",
+    "plans": "圖面樣本",
+    "flow": "物件買賣流程",
+    "qa": "常見問題",
+    "mobile_menu": "選單"
+  },
+  
+  "site": {
+    "title": "REI哥日本不動產X買房知識百科書",
+    "description": "台灣人在日本買房的完整指南",
+    "copyright": "© 2024 twsho. 版權所有",
+    "tagline": "專業、可信賴的日本不動產購買指南"
+  },
+  
+  "home": {
+    "hero": {
+      "title": "歡迎來到REI哥的日本不動產世界",
+      "subtitle": "為台灣朋友提供最專業的日本買房知識",
+      "cta": "開始探索"
+    },
+    "introduction": {
+      "title": "關於REI哥",
+      "content": "大家好我是在日本的不動產仲介「REI」,上次介紹完日本租房知識後,終於在最近也將買房知識一併介紹給大家,由於日本買房會有一戶建＆公寓＆塔樓等等相關的專用語要介紹,有便於想在日本長期投資置產＆自住的朋友,將在此介紹相關知識"
+    },
+    "features": {
+      "title": "主要內容",
+      "property_types": {
+        "title": "物件種類介紹",
+        "description": "詳細介紹各種日本不動產類型"
+      },
+      "rights_types": {
+        "title": "權利種類說明",
+        "description": "了解不同的產權類型與差異"
+      },
+      "flow_guide": {
+        "title": "買賣流程指南",
+        "description": "完整的購買流程與注意事項"
+      },
+      "qa_section": {
+        "title": "常見問題",
+        "description": "解答購房過程中的疑問"
+      }
+    },
+    "social": {
+      "title": "追蹤REI哥",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "description": "獲取最新的日本不動產資訊"
+    }
+  },
+  
+  "terms": {
+    "title": "不動產用語解說",
+    "subtitle": "日本不動產專業術語的中文解說",
+    "categories": {
+      "property_types": "物件種類",
+      "rights_types": "權利種類"
+    },
+    "details": {
+      "features": "特徵",
+      "considerations": "注意事項",
+      "structure": "結構",
+      "floors": "樓層",
+      "facilities": "設施",
+      "advantages": "優點",
+      "disadvantages": "缺點",
+      "duration": "期限",
+      "transferability": "轉讓性",
+      "annual_fees": "年費"
+    }
+  },
+  
+  "plans": {
+    "title": "圖面樣本",
+    "subtitle": "日本不動產圖面的看法說明",
+    "explanation": {
+      "title": "如何看懂日本不動產圖面",
+      "content": "日本不動產圖面包含許多重要資訊，了解這些符號和標示對於選擇合適的物件非常重要。"
+    },
+    "examples": {
+      "title": "圖面範例",
+      "apartment": "公寓圖面",
+      "mansion": "大廈圖面", 
+      "house": "獨棟住宅圖面"
+    },
+    "glossary": {
+      "title": "圖面用語",
+      "room_codes": "房間代號說明",
+      "measurements": "尺寸標示"
+    }
+  },
+  
+  "flow": {
+    "title": "物件買賣流程",
+    "subtitle": "完整的日本不動產購買流程指南",
+    "duration": "預計時間",
+    "documents": "所需文件",
+    "notes": "重要注意事項",
+    "tips": "實用建議",
+    "costs": "相關費用"
+  },
+  
+  "qa": {
+    "title": "常見問題",
+    "subtitle": "日本不動產購買相關問題解答",
+    "search_placeholder": "搜尋問題...",
+    "categories": {
+      "all": "全部",
+      "general": "一般問題",
+      "legal": "法律相關",
+      "financial": "資金相關", 
+      "process": "購買流程",
+      "maintenance": "維護管理"
+    },
+    "no_results": "沒有找到相關問題",
+    "clear_search": "清除搜尋"
+  },
+  
+  "errors": {
+    "page_not_found": "頁面不存在",
+    "network_error": "網路連線錯誤",
+    "loading_failed": "載入失敗",
+    "go_home": "返回首頁"
+  },
+  
+  "meta": {
+    "home": {
+      "title": "REI哥日本不動產X買房知識百科書 - 台灣人買房指南",
+      "description": "專為台灣人設計的日本不動產購買完整指南，包含物件類型、權利種類、買賣流程等專業知識"
+    },
+    "terms": {
+      "title": "不動產用語解說 - 日本買房專業術語",
+      "description": "詳細解說日本不動產專業術語，包含各種物件類型與權利種類的中文說明"
+    },
+    "plans": {
+      "title": "圖面樣本 - 日本不動產圖面看法",
+      "description": "教你如何看懂日本不動產圖面，包含各種符號與標示的詳細說明"
+    },
+    "flow": {
+      "title": "買賣流程 - 日本不動產購買流程",
+      "description": "完整的日本不動產購買流程指南，從準備到完成的每個步驟詳解"
+    },
+    "qa": {
+      "title": "常見問題 - 日本買房Q&A",
+      "description": "日本不動產購買過程中的常見問題與專業解答"
+    }
+  }
+}
