@@ -1,6 +1,6 @@
 .footer {
-  background-color: var(--gray-800);
-  color: white;
+  background-color: var(--main-color);
+  color: var(--inverted-text-color);
   padding: 2rem 0;
   margin-top: auto;
 }
@@ -12,12 +12,12 @@
 .copyright {
   font-size: 0.875rem;
   margin-bottom: 0.5rem;
-  color: var(--gray-300);
+  color: var(--inverted-text-color);
 }
 
 .tagline {
   font-size: 0.875rem;
-  color: var(--gray-300);
+  color: var(--inverted-text-color);
   margin: 0;
 }
 

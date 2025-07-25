@@ -3,8 +3,8 @@
 }
 
 .hero {
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
-  color: white;
+  background: linear-gradient(135deg, var(--main-color), var(--accent-color));
+  color: var(--inverted-text-color);
   text-align: center;
   padding: 4rem 0;
   margin-bottom: 3rem;
@@ -14,7 +14,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: white;
+  color: var(--inverted-text-color);
 }
 
 .hero-subtitle {
@@ -26,14 +26,14 @@
 .hero-cta {
   font-size: 1.125rem;
   padding: 1rem 2rem;
-  background-color: var(--secondary-color);
+  background-color: var(--accent-color);
   border: none;
-  color: white;
+  color: var(--inverted-text-color);
 }
 
 .hero-cta:hover {
-  background-color: var(--secondary-dark);
-  color: white;
+  background-color: var(--main-color);
+  color: var(--background-color);
   text-decoration: none;
 }
 
@@ -53,10 +53,10 @@
 }
 
 .feature-card {
-  background: white;
+  background: var(--background-color);
   padding: 2rem;
   border-radius: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px var(--shadow);
   text-decoration: none;
   color: inherit;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -64,13 +64,13 @@
 
 .feature-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px var(--shadow);
   text-decoration: none;
   color: inherit;
 }
 
 .feature-card h3 {
-  color: var(--primary-color);
+  color: var(--main-color);
   margin-bottom: 1rem;
 }
 
@@ -89,16 +89,16 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background-color: var(--gray-200);
-  color: var(--gray-800);
+  background-color: var(--background-color);
+  color: var(--text-color);
   text-decoration: none;
   border-radius: 0.5rem;
   transition: background-color 0.2s ease;
 }
 
 .social-link:hover {
-  background-color: var(--primary-light);
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--background-color);
   text-decoration: none;
 }
 

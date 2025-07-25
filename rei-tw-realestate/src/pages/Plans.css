@@ -18,9 +18,9 @@
 }
 
 .example-card {
-  background: white;
+  background: var(--background-color);
   border-radius: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px var(--shadow);
   padding: 2rem;
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -28,13 +28,13 @@
 
 .example-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px var(--shadow);
 }
 
 .example-placeholder {
   width: 100px;
   height: 100px;
-  background: var(--gray-200);
+  background: var(--background-color);
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@
 }
 
 .example-card h3 {
-  color: var(--primary-color);
+  color: var(--main-color);
   margin-bottom: 1rem;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .glossary-item h4 {
-  color: var(--primary-color);
+  color: var(--main-color);
   margin-bottom: 1rem;
 }
 
@@ -72,7 +72,7 @@
 
 .glossary-item li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--background-color);
   display: flex;
   justify-content: space-between;
   align-items: center;

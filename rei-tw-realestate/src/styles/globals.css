@@ -3,21 +3,21 @@
 
 /* CSS Variables */
 :root {
-  --primary-color: #2B5AA0;
-  --primary-light: #4A7BC8;
-  --primary-dark: #1E3F73;
+  /* 基本カラー */
+  --main-color: #2a2548;      /* メインカラー: ヘッダー、フッター、主要な要素 */
+  --accent-color: #483D8B;    /* アクセントカラー: 強調、ボタン、リンク */
+  --background-color: #e2e2e2;/* 背景カラー: ページ背景 */
+  --text-color: #2a2548;      /* 文字カラー: 本文テキスト */
+  --inverted-text-color: #e2e2e2; /* 暗い背景上のテキスト用 */
+
+  /* 機能的な色 */
+  --background: var(--background-color);
+  --card-background: var(--background-color);
+  --text-primary: var(--text-color);
+  --text-secondary: var(--text-color);
+  --shadow: rgba(0,0,0,0.08);
   
-  --secondary-color: #E8A317;
-  --secondary-light: #F5B942;
-  --secondary-dark: #C8890A;
-  
-  --gray-100: #F8F9FA;
-  --gray-200: #E9ECEF;
-  --gray-300: #DEE2E6;
-  --gray-600: #6C757D;
-  --gray-800: #343A40;
-  --gray-900: #212529;
-  
+  /* フォント */
   --font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', sans-serif;
 }
 
@@ -31,13 +31,13 @@
 body {
   font-family: var(--font-family);
   line-height: 1.6;
-  color: var(--gray-900);
-  background-color: var(--gray-100);
+  color: var(--text-primary);
+  background-color: var(--background);
 }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-  color: var(--gray-900);
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
 
@@ -46,12 +46,12 @@ h2 { font-size: 1.5rem; font-weight: 600; }
 h3 { font-size: 1.25rem; font-weight: 500; }
 
 a {
-  color: var(--primary-color);
+  color: var(--secondary);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--primary-dark);
+  color: var(--accent-color);
 }
 
 /* Components */
@@ -62,9 +62,9 @@ a:hover {
 }
 
 .card {
-  background: white;
+  background: var(--card-background);
   border-radius: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px var(--shadow);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -81,10 +81,19 @@ a:hover {
 }
 
 .btn-primary {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: var(--main-color);
+  color: #FFFFFF;
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-dark);
+  background-color: var(--accent-color);
+}
+
+.btn-secondary {
+  background-color: var(--accent-color);
+  color: #FFFFFF;
+}
+
+.btn-secondary:hover {
+  opacity: 0.9;
 }

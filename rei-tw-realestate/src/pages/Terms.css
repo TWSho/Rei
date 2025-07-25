@@ -9,7 +9,7 @@
 
 .page-subtitle {
   font-size: 1.125rem;
-  color: var(--gray-600);
+  color: var(--text-color);
   margin-top: 1rem;
 }
 
@@ -17,7 +17,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
-  border-bottom: 2px solid var(--gray-200);
+  border-bottom: 2px solid var(--background-color);
 }
 
 .tab {
@@ -27,18 +27,18 @@
   font-size: 1.125rem;
   font-weight: 500;
   cursor: pointer;
-  color: var(--gray-600);
+  color: var(--text-color);
   border-bottom: 3px solid transparent;
   transition: all 0.2s ease;
 }
 
 .tab:hover {
-  color: var(--primary-color);
+  color: var(--main-color);
 }
 
 .tab.active {
-  color: var(--primary-color);
-  border-bottom-color: var(--primary-color);
+  color: var(--main-color);
+  border-bottom-color: var(--main-color);
 }
 
 .terms-grid {
@@ -48,21 +48,21 @@
 }
 
 .term-card {
-  background: white;
+  background: var(--background-color);
   border-radius: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px var(--shadow);
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .term-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px var(--shadow);
 }
 
 .term-header {
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
-  color: white;
+  background: linear-gradient(135deg, var(--main-color), var(--accent-color));
+  color: var(--background-color);
   padding: 1.5rem;
 }
 
@@ -70,7 +70,7 @@
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: white;
+  color: var(--background-color);
 }
 
 .term-japanese {
@@ -88,7 +88,7 @@
   font-size: 0.95rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  color: var(--gray-800);
+  color: var(--text-color);
 }
 
 .term-section {
@@ -98,7 +98,7 @@
 .term-section h4 {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--main-color);
   margin-bottom: 0.75rem;
 }
 
@@ -118,7 +118,7 @@
 
 .term-section li::before {
   content: '•';
-  color: var(--secondary-color);
+  color: var(--accent-color);
   font-weight: bold;
   position: absolute;
   left: 0;
@@ -127,7 +127,7 @@
 .term-details {
   margin-top: 1.5rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--gray-200);
+  border-top: 1px solid var(--background-color);
 }
 
 .detail-item {
@@ -137,7 +137,7 @@
 }
 
 .detail-item strong {
-  color: var(--gray-700);
+  color: var(--text-color);
   min-width: 80px;
   margin-right: 0.5rem;
 }

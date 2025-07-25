@@ -18,7 +18,7 @@
   max-width: 400px;
   width: 100%;
   padding: 0.75rem 1rem;
-  border: 2px solid var(--gray-300);
+  border: 2px solid var(--accent-color);
   border-radius: 0.5rem;
   font-size: 1rem;
   transition: border-color 0.2s ease;
@@ -26,12 +26,12 @@
 
 .search-input:focus {
   outline: none;
-  border-color: var(--primary-color);
+  border-color: var(--main-color);
 }
 
 .clear-search {
-  background: var(--gray-600);
-  color: white;
+  background: var(--main-color);
+  color: var(--background-color);
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
@@ -40,7 +40,7 @@
 }
 
 .clear-search:hover {
-  background: var(--gray-800);
+  background: var(--main-color);
 }
 
 .category-filters {
@@ -51,8 +51,8 @@
 }
 
 .category-filter {
-  background: var(--gray-200);
-  color: var(--gray-700);
+  background: var(--background-color);
+  color: var(--text-color);
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
@@ -62,13 +62,13 @@
 }
 
 .category-filter:hover {
-  background: var(--primary-light);
-  color: white;
+  background: var(--accent-color);
+  color: var(--background-color);
 }
 
 .category-filter.active {
-  background: var(--primary-color);
-  color: white;
+  background: var(--main-color);
+  color: var(--background-color);
 }
 
 .qa-list {
@@ -77,9 +77,9 @@
 }
 
 .qa-item {
-  background: white;
+  background: var(--background-color);
   border-radius: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px var(--shadow);
   margin-bottom: 1rem;
   overflow: hidden;
 }
@@ -104,13 +104,13 @@
 .question-text {
   font-size: 1.125rem;
   font-weight: 500;
-  color: var(--gray-900);
+  color: var(--text-color);
   flex: 1;
   text-align: left;
 }
 
 .expand-icon {
-  color: var(--primary-color);
+  color: var(--main-color);
   font-size: 0.875rem;
   transition: transform 0.2s ease;
   margin-left: 1rem;
@@ -122,14 +122,14 @@
 
 .qa-answer {
   padding: 0 1.5rem 1.5rem;
-  border-top: 1px solid var(--gray-200);
+  border-top: 1px solid var(--background-color);
   animation: slideDown 0.2s ease-out;
 }
 
 .qa-answer p {
   margin: 1rem 0 0;
   line-height: 1.6;
-  color: var(--gray-700);
+  color: var(--text-color);
 }
 
 @keyframes slideDown {
@@ -146,7 +146,7 @@
 .no-results {
   text-align: center;
   padding: 3rem;
-  color: var(--gray-600);
+  color: var(--text-color);
 }
 
 .no-results p {
